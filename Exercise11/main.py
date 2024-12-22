@@ -1,8 +1,11 @@
 width = int(input("Width: "))
-hash = ""
+# hash = ""
 
-while width > 0:
-    hash += "#"
-    width -= 1
+# while width > 0:
+#     hash += "#"
+#     width -= 1
 
-print(hash)
+# print(hash)
+#####################################
+
+print("#" * width)
